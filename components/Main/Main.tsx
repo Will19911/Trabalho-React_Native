@@ -8,7 +8,7 @@ export default function Main() {
     const [resultadoIMC, setResultadoIMC] = useState(null);
     const [mensagem, setMensagem] = useState ("Preencha seu Peso e Altura:");
 
-    Keyboard.dismiss();
+    
     
     function calcularIMC(){
         if (peso ==="" || altura ===""){
